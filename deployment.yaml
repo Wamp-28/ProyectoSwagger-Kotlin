@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-swagger-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: spring-swagger-app
+  template:
+    metadata:
+      labels:
+        app: spring-swagger-app
+    spec:
+      containers:
+        - name: spring-swagger-app
+          image: proyecto-swagger-app:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8081

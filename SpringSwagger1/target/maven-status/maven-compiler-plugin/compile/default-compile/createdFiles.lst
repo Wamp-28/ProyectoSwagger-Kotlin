@@ -1,0 +1,8 @@
+com\example\SpringSwagger1\repository\EstudianteRepository.class
+com\example\SpringSwagger1\configuration\corsConfigurer$1.class
+com\example\SpringSwagger1\service\EstudianteService.class
+com\example\SpringSwagger1\SpringSwagger1Application.class
+com\example\SpringSwagger1\configuration\SwaggerConfiguration.class
+com\example\SpringSwagger1\controller\EstudianteController.class
+com\example\SpringSwagger1\configuration\corsConfigurer.class
+com\example\SpringSwagger1\model\Estudiante.class
